@@ -20,7 +20,7 @@ Terminal coding agents do not render LaTeX. Ask for a derivation and you get `$\
 Through the plugin marketplace (recommended):
 
 ```
-/plugin marketplace add vladimirrott/claude-math
+/plugin marketplace add agentsmith-tools/claude-math
 /plugin install claude-math@vladimirrott
 ```
 
@@ -35,7 +35,7 @@ Then restart Claude Code so the skill loads.
 Into Codex CLI as a native plugin (recommended; no npm):
 
 ```
-codex plugin marketplace add vladimirrott/claude-math
+codex plugin marketplace add agentsmith-tools/claude-math
 codex plugin add claude-math@vladimirrott
 ```
 
@@ -65,6 +65,6 @@ The skill uses real math symbols and genuine sub/superscript glyphs. It delibera
 
 ## Links
 
-- Repository: [github.com/vladimirrott/claude-math](https://github.com/vladimirrott/claude-math)
-- Report an issue: [github.com/vladimirrott/claude-math/issues](https://github.com/vladimirrott/claude-math/issues)
+- Repository: [github.com/agentsmith-tools/claude-math](https://github.com/agentsmith-tools/claude-math)
+- Report an issue: [github.com/agentsmith-tools/claude-math/issues](https://github.com/agentsmith-tools/claude-math/issues)
 - License: MIT
