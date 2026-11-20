@@ -2,59 +2,59 @@
 
 All notable changes to `claude-math` documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
-## [0.6.0](https://github.com/vladimirrott/claude-math/compare/v0.5.0...v0.6.0) (2026-08-18)
+## [0.6.0](https://github.com/agentsmith-tools/claude-math/compare/v0.5.0...v0.6.0) (2026-08-18)
 
 
 ### Features
 
-* **skill:** scope activation by host and publish measured font coverage ([439e410](https://github.com/vladimirrott/claude-math/commit/439e4102949555d3fd11c3367a0da88f81141d92))
+* **skill:** scope activation by host and publish measured font coverage ([439e410](https://github.com/agentsmith-tools/claude-math/commit/439e4102949555d3fd11c3367a0da88f81141d92))
 
-## [0.5.0](https://github.com/vladimirrott/claude-math/compare/v0.4.1...v0.5.0) (2026-08-12)
+## [0.5.0](https://github.com/agentsmith-tools/claude-math/compare/v0.4.1...v0.5.0) (2026-08-12)
 
 
 ### Features
 
-* **skill:** state the glyphs that do not exist, not just the ones that do ([6d408fe](https://github.com/vladimirrott/claude-math/commit/6d408fe156d926ca7a30ee17f0c94e744d77a4a7))
+* **skill:** state the glyphs that do not exist, not just the ones that do ([6d408fe](https://github.com/agentsmith-tools/claude-math/commit/6d408fe156d926ca7a30ee17f0c94e744d77a4a7))
 
-## [0.4.1](https://github.com/vladimirrott/claude-math/compare/v0.4.0...v0.4.1) (2026-07-23)
+## [0.4.1](https://github.com/agentsmith-tools/claude-math/compare/v0.4.0...v0.4.1) (2026-07-23)
 
 
 ### Bug Fixes
 
-* harden installs and terminal math guidance ([7209eef](https://github.com/vladimirrott/claude-math/commit/7209eefc7f8a19abf15c577fe9a1e2ab31619e4a))
+* harden installs and terminal math guidance ([7209eef](https://github.com/agentsmith-tools/claude-math/commit/7209eefc7f8a19abf15c577fe9a1e2ab31619e4a))
 
-## [0.4.0](https://github.com/vladimirrott/claude-math/compare/v0.3.1...v0.4.0) (2026-07-22)
+## [0.4.0](https://github.com/agentsmith-tools/claude-math/compare/v0.3.1...v0.4.0) (2026-07-22)
 
 
 ### Features
 
-* **codex:** add native Codex marketplace plugin install path ([a151252](https://github.com/vladimirrott/claude-math/commit/a151252f6ccd65b9712a705b6aa5910964fcc100))
+* **codex:** add native Codex marketplace plugin install path ([a151252](https://github.com/agentsmith-tools/claude-math/commit/a151252f6ccd65b9712a705b6aa5910964fcc100))
 
 
 ### Bug Fixes
 
-* **codex:** install to current ~/.agents/skills path and make Codex support explicit ([d6041ac](https://github.com/vladimirrott/claude-math/commit/d6041ace4cbdcfc900a81dd1b7cd6643fa46727b))
+* **codex:** install to current ~/.agents/skills path and make Codex support explicit ([d6041ac](https://github.com/agentsmith-tools/claude-math/commit/d6041ace4cbdcfc900a81dd1b7cd6643fa46727b))
 
-## [0.3.1](https://github.com/vladimirrott/claude-math/compare/v0.3.0...v0.3.1) (2026-07-20)
+## [0.3.1](https://github.com/agentsmith-tools/claude-math/compare/v0.3.0...v0.3.1) (2026-07-20)
 
 
 ### Bug Fixes
 
-* **skill:** bracket big-operator bounds and parenthesize multi-char exponents ([#11](https://github.com/vladimirrott/claude-math/issues/11)) ([4284b6d](https://github.com/vladimirrott/claude-math/commit/4284b6d5b7819308b038cd2b798fb0bef028fa69))
+* **skill:** bracket big-operator bounds and parenthesize multi-char exponents ([#11](https://github.com/agentsmith-tools/claude-math/issues/11)) ([4284b6d](https://github.com/agentsmith-tools/claude-math/commit/4284b6d5b7819308b038cd2b798fb0bef028fa69))
 
-## [0.3.0](https://github.com/vladimirrott/claude-math/compare/v0.2.0...v0.3.0) (2026-07-18)
-
-
-### Features
-
-* make claude-math a first-class Codex plugin + harden CI supply chain ([#8](https://github.com/vladimirrott/claude-math/issues/8)) ([9acb093](https://github.com/vladimirrott/claude-math/commit/9acb0934025572daa2607ecd7c7b92b94321bbdd))
-
-## [0.2.0](https://github.com/vladimirrott/claude-math/compare/v0.1.0...v0.2.0) (2026-07-17)
+## [0.3.0](https://github.com/agentsmith-tools/claude-math/compare/v0.2.0...v0.3.0) (2026-07-18)
 
 
 ### Features
 
-* **cli:** add --codex install target (drops math-unicode into Codex skills dir) ([#3](https://github.com/vladimirrott/claude-math/issues/3)) ([738a831](https://github.com/vladimirrott/claude-math/commit/738a8312f8c3febd83588657377e8013946400c9))
+* make claude-math a first-class Codex plugin + harden CI supply chain ([#8](https://github.com/agentsmith-tools/claude-math/issues/8)) ([9acb093](https://github.com/agentsmith-tools/claude-math/commit/9acb0934025572daa2607ecd7c7b92b94321bbdd))
+
+## [0.2.0](https://github.com/agentsmith-tools/claude-math/compare/v0.1.0...v0.2.0) (2026-07-17)
+
+
+### Features
+
+* **cli:** add --codex install target (drops math-unicode into Codex skills dir) ([#3](https://github.com/agentsmith-tools/claude-math/issues/3)) ([738a831](https://github.com/agentsmith-tools/claude-math/commit/738a8312f8c3febd83588657377e8013946400c9))
 
 ## [0.1.0] — 2026-05-20
 
